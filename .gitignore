@@ -1,0 +1,42 @@
+# macOS system files
+.DS_Store
+*/.DS_Store
+*.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Office temporary files
+*.~$*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Large data files (if needed)
+# Uncomment if you want to exclude large files:
+# *.csv
+# *.txt
+# *.tsv
