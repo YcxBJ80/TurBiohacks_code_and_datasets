@@ -123,7 +123,7 @@ for name, clf in classifiers.items():
             
             # Calculate ROC curve for each class
             colors = ['blue', 'red', 'green', 'orange', 'purple']
-            class_names = ['Normal/Non-tumor', 'HBV-HCC', 'Other Tumor']
+            class_names = ['Normal/Non-tumor', 'HBV-HCC', ' HCC']
             
             for i in range(n_classes):
                 fpr, tpr, _ = roc_curve(y_test_bin[:, i], y_proba[:, i])
